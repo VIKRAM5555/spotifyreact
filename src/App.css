@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image:linear-gradient(to right, #39ff6d , #701c1c);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap :30px
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App img{
+  border-radius:50px;
+}
+.App p {
+  color: #6f1d1c;
+  font-family: cabin-sketch-regular,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  background: -webkit-linear-gradient(#701c1c, #ff393a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  gap: 20px;
+  
+
+ 
+}
+.Stack{
+   background: -webkit-linear-gradient(#ff393a, #ff393a);
+   display:flex;
+gap:10px
+}
+
+
+
+
+.main{
+
+  display:flex;
+ 
+
+  flex-direction: column;
+  width:10%;
+  height:10px;
+gap:112px
+}
+
+.Gallery{
+ 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background: rgb(241, 243, 237);
+border-radius: 30px;
+
+background-image: linear-gradient(
+  90deg,
+  hsl(0deg 100% 49%) 0%,
+  hsl(22deg 96% 81%) 20%,
+  hsl(39deg 100% 86%) 40%,
+  hsl(25deg 100% 68%) 60%,
+  hsl(23deg 71% 47%) 80%,
+  hsl(327deg 61% 20%) 100%
+);
+position: absolute;
+ 
+  left:5vw;
+}
+.updated{
+padding:5px;
+  box-shadow: rgba(15, 13, 13, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(19, 16, 16, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+  border-radius: 30px;
+  
+}
+h1{
+letter-spacing: 5px;
+line-height: 4;
+}
+h6{
+  word-spacing: 5px;
+  line-height: 4;
+  }
+.playImg{
+  width:80vw;
+  height:80vh;
+  padding:50px;
+  box-shadow: rgba(151, 60, 212, 0.993) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgb(23, 221, 122) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ 
+  border-radius: 60px;
+  position: absolute;
+ 
+  left:7vw;
+
+}
+.playerSong{
+  position: absolute;
+  left:10vw;
+  bottom:0vh;
+  width: 80vw;
+  
+
+}
+.subheader{
+  
+  box-shadow: rgba(15, 13, 13, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(19, 16, 16, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.subheaderPlay{
+  width:fit-content;
+  box-shadow: rgba(15, 13, 13, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(19, 16, 16, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
